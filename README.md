@@ -27,14 +27,18 @@ Los 8 laboratorios están diseñados para construir, pieza a pieza, las capacida
 
 | Lab    | Título                    | Competencia        | Herramienta Clave         |
 | :----- | :------------------------ | :----------------- | :------------------------ |
-| **L1** | **Setup del Entorno**     | Gobernanza         | Docker + Git              |
-| **L2** | **Captura en el EHR**     | Modelos de Datos   | PostgreSQL (MIMIC-III)    |
+| **L0** | **Setup del Entorno**     | Gobernanza         | Docker + Git              |
+| **L1** | **Captura en el EHR**     | Modelos de Datos   | PostgreSQL (MIMIC-III)    |
+| **L1.1** | **Veracidad de los datos**     | Auditoría de Calidad   | PostgreSQL    |
+| **L2** | **Armonización de Datos** | Ética y Privacidad  |          |
 | **L3** | **Semántica Clínica**     | Estándares         | ICD-10, SNOMED CT         |
-| **L4** | **Armonización de Datos** | Interoperabilidad  | RxNorm + UMLS API         |
-| **L5** | **Curación de Datos RWD** | Preparación        | Python (Data Cleaning)    |
-| **L6** | **Imágenes como Datos**   | Señales            | DICOM + Matplotlib        |
-| **L7** | **Visual Analytics**      | Toma de Decisiones | Grafana Dashboard         |
-| **L8** | **Predicción Clínica**    | Machine Learning   | Scikit-learn (Sepsis/AKI) |
+| **L4** | **Modelos de Datos** | Interoperabilidad  | FHIR         |
+| **L5** | **Curación de Datos RWD** | Preparación        | Python + Pandas    |
+| **L6** | **EDA Clínico**   | Estadística clínica y EDA            | Seaborn + Matplotlib        |
+| **L7** | **Modelado Estadístico**   | Modelado estadístico            | Statsmodels + Scikit-learn        |
+| **L8** | **Imágenes como Datos**   | Imágenes y señales            | DICOM + Matplotlib        |
+| **L9** | **Predicción Clínica**    | Machine Learning   | Scikit-learn |
+| **L10** | **Visual Analytics**      | Toma de Decisiones | Grafana Dashboard         |
 
 ---
 
