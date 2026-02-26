@@ -1,0 +1,4 @@
+pandas
+matplotlib
+seaborn
+fhir.resources==8.2.0
