@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/home/jovyan/work
+    command: >
+      bash -lc "
+      pip install --no-cache-dir -r /home/jovyan/work/requirements.txt &&
+      start-notebook.py --NotebookApp.token='' --NotebookApp.password=''
+      "
